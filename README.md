@@ -45,9 +45,7 @@ Android支持蓝牙开发的类在android.bluetooth包下。编程主要涉及�
 (2)BluetoothDevice类
 该类代表了一个远端的蓝牙设备，使用它请求远端蓝牙设备连接或者获取远端蓝牙设备的名称、地址、种类和
 绑定状态(其信息封装在BluetoothSocket中)。
-
-													BluetoothDevice类中部分方法
-				   
+                                BluetoothDevice类中部分方法
 				   ---------------------------------------------------------------------------------------
 				   | createRfcommSockettoServiceRecord(UUID uuid) | 根据UUID创建并返回一个BluetoothSocket|
 				   ---------------------------------------------------------------------------------------
@@ -62,3 +60,7 @@ Android支持蓝牙开发的类在android.bluetooth包下。编程主要涉及�
 				   | toString()                                   | 返回代表蓝牙设备的字符串             |
 				   ---------------------------------------------------------------------------------------
 				   
+(3)BluetoothServerSocket类
+该类代表打开服务连接来监听可能到来的连接请求(属于server端)，为了连接蓝牙设备必须有一个服务器打开一个
+服务套接字。当远端设备发起连接请求时，并且已经连接上时，BluetoothServerSocket类将会返回一个Bluetooth
+Socket。

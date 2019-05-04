@@ -104,3 +104,5 @@ Socket。
 4.通过服务发现建立与其他蓝牙设备的连接;
 5.设备之间的数据传输；
 6.管理多个连接。
+
+![image](https://github.com/szuhqh/bluetoothBasic/blob/master/images/qrcode_for_gh_134f1744e99c_258.jpg)
